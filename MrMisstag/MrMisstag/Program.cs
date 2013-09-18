@@ -4,13 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MrMisstag
+
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hej Dennis!");
-        }
+        Console.WriteLine("Hej, vi vill introducera dig för ett riktigt ostabilt program där du kan köpa din bil.");
+        string Ford;
+        string Volvo;
+        string Saab;
+
+
+        // La till lite i text
+        Console.WriteLine("Skriv in vilken bil du vill köpa:");
+
     }
+
 }
+
