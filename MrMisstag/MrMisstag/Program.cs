@@ -8,20 +8,36 @@ using System.Threading.Tasks;
 
 class Program
 {
-    static void Main(fest)
+    static void Main()
     {
         Console.WriteLine("Hej,\nVi vill introducera dig för ett riktigt ostabilt program där du kan köpa din bil.");
-        string Ford:
+       
+        string Ford;
         string Volvo:
-        string Saab:
+        string Saab;
+
+
+
+
 
 
         // La till lite i text
-        Console.WriteLine("Skriv in vilken bil du vill köpa:");
+        Console.WriteLine("Skriv in vilken bil du vill köpa:):
+
+        Console.WriteLine("Bilar att välja på: Ford, Volvo och Saab:"];
+
+        string x = Console.ReadLine();
+
+        Console.WriteLine("Du har köpt bilen" x "Grattis! ");
+
+
 
         Console.WriteLine("\n\n SUA!!");
 
-        Console.writeLine("Ditt program suger):
+        Console.WriteLine("Ditt program suger");
+
+
+
     }
 
 }
