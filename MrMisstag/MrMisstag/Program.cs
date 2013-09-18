@@ -27,7 +27,7 @@ class Program
         Console.WriteLine("\n");
         string inmatat = Consåle.ReadLine();
 
-        Console.WriteLine:("Du har fått en " + inmatat + " Grattis!");
+        Console.WriteLine:("Du har fått en " + inmatat + " GrattiAs!");
         {
             string Volvo = "\nVolvo: Volvo Orsakar Landets Värsta Olyckor!!!";
             string Saab = "\nSaab: Sälj Aset Annars Byt!!!";
