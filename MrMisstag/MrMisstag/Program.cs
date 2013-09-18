@@ -21,24 +21,24 @@ class Program
 
 
         // La till lite i text
-        Console.WriteLine"Skriv in vilken bilv du vill köpa");
+        Console.WriteLine("Skriv in vilken bilv du vill köpa");
         Console.WriteLine("\t");
         Console.WriteLine("Bilar att välja på: Volvo och Saab:");
         Console.WriteLine("\n");
-        string inmatat = Consåle.ReadLine();
+        string inmatat = Console.ReadLine();
 
-        Console.WriteLine:("Du har fått en " + inmatat + " Grattis!");
+        Console.WriteLine("Du har fått en " + inmatat + " Grattis!");
         {
             string Volvo = "\nVolvo: Volvo Orsakar Landets Värsta Olyckor!!!";
             string Saab = "\nSaab: Sälj Aset Annars Byt!!!";
 
-            if (inmatat == "Volvo" &| inmatat == "volvo")
+            if (inmatat == "Volvo" || inmatat == "volvo")
             {
                 Console.WriteLine(Volvo);
             }
-            else if (inmatat == "Saab" || inmatat == "saab");
+            else if (inmatat == "Saab" || inmatat == "saab")
             {
-                Console,WriteLine(Saab)
+                Console.WriteLine(Saab);
             }
         }
 
